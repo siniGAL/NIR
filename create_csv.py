@@ -1,8 +1,9 @@
 from scapy.all import *
 import pandas as pd
+import threading
 import os
 
-path = '/Users/macbookpro/Documents/Dataset/Pcaps/nonTor/'
+path = '/Users/macbookpro/Documents/Dataset/Pcaps/tor/'
 
 for index in range(len((os.listdir(path)))):
 
